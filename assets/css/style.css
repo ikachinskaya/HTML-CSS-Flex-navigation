@@ -13,32 +13,29 @@
   background-color: black;
   color: white;
   min-height: 100px;
+  padding: 20px;
 }
 .logo {
   font-family: cursive;
   font-size: 26px;
-  margin: 20px;
+}
+.navigation-list {
+  margin: 10px 0;
 }
 .navigation-list-item,
 .contacts {
   text-transform: uppercase;
 }
-.navigation-list-item:first-child {
-  margin-left: 20px;
-}
-
 .navigation-list-item {
   display: inline-block;
-  margin-left: 10px;
+  margin-right: 20px;
 }
 .navigation-list-link,
 .contacts {
   color: inherit;
   text-decoration: none;
 }
-
 .contacts {
   padding: 15px;
   border: 1px solid white;
-  margin: 15px 40px 15px 20px;
 }
